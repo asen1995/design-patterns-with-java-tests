@@ -74,3 +74,13 @@ Decorator pattern allows a user to add new functionality to an existing object w
 This pattern creates a decorator class which wraps the original class and provides additional functionality keeping class methods signature intact.
 
 We are demonstrating the use of decorator pattern via following example in which we will decorate a shape with some color without alter shape class.
+
+6. Facade
+
+Facade pattern hides the complexities of the system and provides an interface to the client using which the client can access the system. This type of design pattern comes under structural pattern as this pattern adds an interface to existing system to hide its complexities.
+
+This pattern involves a single class which provides simplified methods required by client and delegates calls to methods of existing system classes.
+
+7. Flyweight
+
+Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance. This type of design pattern comes under structural pattern as this pattern provides ways to decrease object count thus improving the object structure of application.
