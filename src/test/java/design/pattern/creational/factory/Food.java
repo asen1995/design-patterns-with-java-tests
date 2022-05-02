@@ -1,4 +1,5 @@
 package design.pattern.creational.factory;
 
-public class factory {
+public interface Food {
+    String eat();
 }
