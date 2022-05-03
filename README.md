@@ -84,3 +84,11 @@ This pattern involves a single class which provides simplified methods required 
 7. Flyweight
 
 Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance. This type of design pattern comes under structural pattern as this pattern provides ways to decrease object count thus improving the object structure of application.
+
+
+
+============ Behaviour =============
+
+1. Command
+
+Command pattern is a data driven design pattern and falls under behavioral pattern category. A request is wrapped under an object as command and passed to invoker object. Invoker object looks for the appropriate object which can handle this command and passes the command to the corresponding object which executes the command.
