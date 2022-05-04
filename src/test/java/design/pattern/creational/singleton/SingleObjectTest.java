@@ -11,4 +11,11 @@ class SingleObjectTest {
         assertEquals(singleInstance.getName(), "Singleton-Name");
 
     }
+    @Test
+    void singletonClassInstanceTest() {
+        final SingleObject singleInstance = SingleObject.getInstance();
+        final SingleObject singleInstanceSecond = SingleObject.getInstance();
+        assertSame(singleInstance,singleInstanceSecond);
+    }
+
 }
