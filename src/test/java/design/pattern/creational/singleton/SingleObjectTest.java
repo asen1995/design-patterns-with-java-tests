@@ -15,7 +15,7 @@ class SingleObjectTest {
     void singletonClassInstanceTest() {
         final SingleObject singleInstance = SingleObject.getInstance();
         final SingleObject singleInstanceSecond = SingleObject.getInstance();
-        assertSame(singleInstance,singleInstanceSecond);
+        assertSame(singleInstance,singleInstanceSecond); 
     }
 
 }
