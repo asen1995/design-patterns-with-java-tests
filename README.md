@@ -116,3 +116,10 @@ Memento pattern is used to restore state of an object to a previous state. Memen
 In State pattern a class behavior changes based on its state. This type of design pattern comes under behavior pattern.
 
 In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
+
+7. Strategy
+
+
+In Strategy pattern, a class behavior or its algorithm can be changed at run time. This type of design pattern comes under behavior pattern.
+
+In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object. The strategy object changes the executing algorithm of the context object.
