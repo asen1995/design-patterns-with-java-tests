@@ -106,3 +106,7 @@ Iterator pattern falls under behavioral pattern category.
 4. Mediator 
 
 Mediator pattern is used to reduce communication complexity between multiple objects or classes. This pattern provides a mediator class which normally handles all the communications between different classes and supports easy maintenance of the code by loose coupling. Mediator pattern falls under behavioral pattern category.
+
+5. Memento
+
+Memento pattern is used to restore state of an object to a previous state. Memento pattern falls under behavioral pattern category.
