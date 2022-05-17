@@ -110,3 +110,9 @@ Mediator pattern is used to reduce communication complexity between multiple obj
 5. Memento
 
 Memento pattern is used to restore state of an object to a previous state. Memento pattern falls under behavioral pattern category.
+
+6. State
+
+In State pattern a class behavior changes based on its state. This type of design pattern comes under behavior pattern.
+
+In State pattern, we create objects which represent various states and a context object whose behavior varies as its state object changes.
