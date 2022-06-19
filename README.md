@@ -162,3 +162,16 @@ Business Delegate - A single entry point class for client entities to provide ac
 LookUp Service - Lookup service object is responsible to get relative business implementation and provide business object access to business delegate object.
 
 Business Service - Business Service interface. Concrete classes implement this business service to provide actual business implementation logic.
+
+
+2. Composite Entity Pattern
+
+Composite Entity pattern is used in EJB persistence mechanism. A Composite entity is an EJB entity bean which represents a graph of objects. When a composite entity is updated, internally dependent objects beans get updated automatically as being managed by EJB entity bean. Following are the participants in Composite Entity Bean.
+
+Composite Entity - It is primary entity bean. It can be coarse grained or can contain a coarse grained object to be used for persistence purpose.
+
+Coarse-Grained Object - This object contains dependent objects. It has its own life cycle and also manages life cycle of dependent objects.
+
+Dependent Object - Dependent object is an object which depends on coarse grained object for its persistence lifecycle.
+
+Strategies - Strategies represents how to implement a Composite Entity.
