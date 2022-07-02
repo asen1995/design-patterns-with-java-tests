@@ -91,6 +91,12 @@ In proxy pattern, a class represents functionality of another class. This type o
 
 In proxy pattern, we create object having original object to interface its functionality to outer world.
 
+9. Chain of Responsibility 
+
+As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request. This pattern decouples sender and receiver of a request based on type of request. This pattern comes under behavioral patterns.
+
+In this pattern, normally each receiver contains reference to another receiver. If one object cannot handle the request then it passes the same to the next receiver and so on.
+
 ============ Behaviour =============
 
 1. Command
