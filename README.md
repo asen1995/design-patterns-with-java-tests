@@ -85,7 +85,11 @@ This pattern involves a single class which provides simplified methods required 
 
 Flyweight pattern is primarily used to reduce the number of objects created and to decrease memory footprint and increase performance. This type of design pattern comes under structural pattern as this pattern provides ways to decrease object count thus improving the object structure of application.
 
+8. Proxy 
 
+In proxy pattern, a class represents functionality of another class. This type of design pattern comes under structural pattern.
+
+In proxy pattern, we create object having original object to interface its functionality to outer world.
 
 ============ Behaviour =============
 
